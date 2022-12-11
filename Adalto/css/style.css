@@ -1,0 +1,274 @@
+body::-webkit-scrollbar {
+    width: 8px;         
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(29, 29, 29);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7aa;    
+    border-radius: 20px;      
+    border:  none;  
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-image: url(img/background.jpg);
+    box-shadow: inset 0 0 60px rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    transition: 0.3s all;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav h1{
+  font-size: 40px;
+  letter-spacing: 6px;
+}
+
+
+nav span{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(179, 0, 0);
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s all;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+    transition: 0.3s all;
+    color: rgb(179, 0, 0);
+}
+
+nav h1 a{
+  color: white;
+  text-decoration: none;
+}
+
+.agendar a{
+  position: absolute;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 15px 60px 15px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  left: 40%;
+  top: 50%;
+  box-shadow: rgba(255, 255, 255, 0.521) 20px 10px 190px 1px;
+  transition: 0.50s all;
+}
+
+.agendar a:hover{
+  transition: 0.3s all;
+  color: white;
+  background-color: rgb(179, 0, 0);
+  transform: scale(1.2);
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  top: -800px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(179, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev{
+  margin-right: -50px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(179, 0, 0, 0.541);
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: #333333;
+  font-size: 20px;
+  max-width: 500px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  left: 520px;
+  top: 60px;
+  font-family: 'Secular One', sans-serif;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.produtos {
+  position: absolute;
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+  top: 1000px;
+  transition: 0.3s all;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+  transition: 0.3s all ;
+}
+
+.produtos li:hover {
+	border-color: rgb(179, 0, 0);
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover{
+	transform: scale(1.02);
+	transition: 0.3s all;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.li1{
+  position: absolute;
+  left: 200px;
+}
+
+.li2{
+  position: absolute;
+  left: 525px;
+}
+
+
+.li3{
+  position: absolute;
+  left: 850px;
+}
+
+footer{
+  position: absolute;
+  background-color: rgb(29, 29, 29);
+  width: 100%;
+  height: 50vh;
+  top: 1550px;
+}
+
+
+footer img{
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 40%;
+}

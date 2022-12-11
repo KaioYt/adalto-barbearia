@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Adalto - Barbearia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="/path/to/reset-css/reset.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!--Background-->
+    <main class="container">
+        <nav>
+            <h1><a href="#">Adalto <span>Barbearia</span></a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#slide">Sobre</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=554497616918&text=Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%98%80">Agendar</a></li>
+                <li><a href="#services">Serviços</a></li>
+            </ul>
+        </nav>
+
+        <div class="agendar">
+            <a href="https://api.whatsapp.com/send?phone=554497616918&text=Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%98%80">Agendar</a>
+        </div>
+    </main>
+
+
+        <div class="grapch"></div>
+        <div class="grapch2"></div>
+        <div class="grapch3"></div>
+
+    <style>
+           .grapch{
+            position: relative;
+            padding: 50px;
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+            height: 50%;
+            border-radius: 100%;
+            top: -120px;
+           } 
+
+           .grapch2{
+            position: relative;
+            padding: 50px;
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+            height: 50%;
+            border-radius: 50%;
+            top: -385px;
+            left: 500px;
+            rotate: -25deg;
+           } 
+
+           .grapch3{
+            position: relative;
+            padding: 50px;
+            background-color: rgb(255, 255, 255);
+            width: 150px;
+            height: 200px;
+            border-radius: 80%;
+            top: -700px;
+            left: 1170px;
+            rotate: 100deg;
+           } 
+    </style>
+
+
+        <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+    <!-- Full-width images with number  -->
+    <div class="mySlides fade" id="slide">
+      <div class="numbertext"></div>
+      <img src="img/certificado-curso-de-barbeiro-modelo-02-D_NQ_NP_621558-MLB27434126706_052018-F.jpg" style="width: 45%; border-radius: 30px;">
+      <div class="text">Fluffy pink unicorns are a popular status symbol among macho men. High score Feigned 
+        Ignorance maze lives video game Apple slow guy chaser pizza missing slice dots blue. 
+        Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. 
+        Clyde blue enemies flash dots wocka maze monsters ghosts red chaser.</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img/professional-hairstylist-with-barber-tools-close-up.jpg" style="width: 48%; border-radius: 30px;">
+      <div class="text">
+        Fluffy pink unicorns are a popular status symbol among macho men. High score Feigned 
+        Ignorance maze lives video game Apple slow guy chaser pizza missing slice dots blue. 
+        Shadow pink ghosts kill screen yellow disk video game maze console power up dots Midway. 
+        Clyde blue enemies flash dots wocka maze monsters ghosts red chaser.
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img/map-1272165_960_720.png" style="width: 55%; border-radius: 30px;">
+      <div class="text">Estamos localizado no centro da cidade! <br>
+        Rua: Osmar Ferrari nº134 <br>
+        Perto do Rei Auto Peças
+      </div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)" style="margin-left: -150px;">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)" style="margin-right: -150px;">&#10095;</a>
+  </div>
+
+  <main>
+    <ul class="produtos" id="services">
+      <li class="li1">
+        <h2>Cabelo</h2>
+        <img src="img/cabelo.jpg">
+        <p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
+        <p class="produto-preco">R$ 25,00</p>
+      </li>
+      <li class="li2">
+        <h2>Barba</h2>
+        <img src="img/barba.jpg">
+        <p class="produto-descricao">Corte e desenho profissional de barba</p>
+        <p class="produto-preco">R$ 18,00</p>
+      </li>
+      <li class="li3">
+        <h2>Cabelo + Barba</h2>
+        <img src="img/cabelo+barba.jpg">
+        <p class="produto-descricao">Pacote completo de cabelo e barba</p>
+        <p class="produto-preco">R$ 35,00</p>
+      </li>
+    </ul>
+  </main>
+
+
+  <footer>
+    <img src="logo.png" alt="...">
+  </footer>
+
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+// Scroll to specific values
+// scrollTo is the same
+window.scroll({
+  top: 2500, 
+  left: 0, 
+  behavior: 'smooth'
+});
+
+// Scroll certain amounts from current position 
+window.scrollBy({ 
+  top: 100, // could be negative value
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+// Scroll to a certain element
+document.querySelector('.hello').scrollIntoView({ 
+  behavior: 'smooth' 
+});
+</script>
+    
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
